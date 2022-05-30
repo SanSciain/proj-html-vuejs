@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+// Variables
+$ms-christi: #69a10e;
+$ms-tundora: #434243;
+$ms-silver: #bcbcbc;
+$ms-black: #030303;
+$ms-white: #ffffff;
+
+// Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Commons
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
