@@ -40,6 +40,8 @@ export default {
 .ms-container {
   width: 90%;
   margin: 0 auto;
+  background-color: transparent;
+  z-index: 999;
 }
 .ms-img-container {
   width: 300px;

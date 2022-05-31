@@ -1,5 +1,5 @@
 <template>
-  <div class="ms-container-small d-flex justify-content-around">
+  <div class="ms-container-small d-flex justify-content-around py-5">
     <SmallCard
       v-for="(item, index) in cardContent"
       :key="index"

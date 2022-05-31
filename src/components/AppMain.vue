@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AppJumbo />
+    <AppJumbo :jumboContent="jumbos[0]" />
     <FirstSection />
     <SmallCards />
   </div>
@@ -16,6 +16,19 @@ export default {
     AppJumbo,
     FirstSection,
     SmallCards,
+  },
+  data() {
+    return {
+      jumbos: [
+        {
+          upperTitle: "the best table in town",
+          title: "fine dining experience",
+          text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, beatae. Lorem ipsum dolor sit amet.",
+          btnText: "Explore the menu",
+          label: true,
+        },
+      ],
+    };
   },
 };
 </script>
