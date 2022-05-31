@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="ms-container">
     <div class="row py-4">
       <div class="col col-5">
         <div class="ms-img-container">
@@ -37,8 +37,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container-fluid {
-  position: fixed;
+.ms-container {
+  width: 90%;
+  margin: 0 auto;
 }
 .ms-img-container {
   width: 300px;
@@ -53,7 +54,6 @@ ul {
 
   li {
     color: #bcbcbc;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     font-weight: 700;
     &.isActive {

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <AppHeader :menuItems="headerMenu" />
+    <AppHeader :menuItems="headerMenu" class="fixed-top" />
     <AppMain />
     <AppFooter />
   </div>
