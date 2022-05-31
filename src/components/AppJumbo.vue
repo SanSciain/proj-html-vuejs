@@ -16,6 +16,20 @@
       <div class="col col-7 ms-img-col">
         <div class="ms-img-container">
           <img src="../assets/img/slider52x.jpg" alt="" />
+          <div class="ms-labels-wrapper">
+            <div
+              class="demos d-flex ms-label flex-column mb-2 text-center justify-content-center"
+            >
+              <font-awesome-icon icon="fa-solid fa-folder" class="main-label" />
+              <span>Demos</span>
+            </div>
+            <div
+              class="sale ms-label d-flex flex-column text-center justify-content-center"
+            >
+              <span class="main-label price">$39</span>
+              <span>On Sale</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -23,6 +37,13 @@
 </template>
 
 <script>
+import Vue from "vue";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faFolder } from "@fortawesome/free-solid-svg-icons";
+library.add(faFolder);
+Vue.component("font-awesome-icon", FontAwesomeIcon);
+
 export default {
   name: "AppJumbo",
 };
@@ -74,6 +95,33 @@ export default {
   .ms-img-col {
     // background-image: url("../assets/img/slider52x.jpg");
     padding: 0;
+    position: relative;
+
+    .ms-labels-wrapper {
+      position: absolute;
+      right: 2rem;
+      top: 6rem;
+
+      .ms-label {
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 10px;
+        font-size: 0.7rem;
+        color: #434243;
+
+        .main-label {
+          font-size: 1.2rem;
+        }
+
+        .price {
+          color: #69a10e;
+          font-weight: bold;
+        }
+      }
+    }
   }
 }
 </style>
