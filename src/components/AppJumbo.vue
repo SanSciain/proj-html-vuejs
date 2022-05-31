@@ -78,15 +78,6 @@ export default {
       .ms-title {
         color: white;
       }
-
-      .ms-btn {
-        color: white;
-        border: 1px solid white;
-        border-radius: 0;
-        font-size: 0.7rem;
-        padding: 0.5rem 1.5rem;
-        font-weight: 600;
-      }
     }
   }
 
