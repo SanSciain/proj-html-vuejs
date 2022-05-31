@@ -1,6 +1,6 @@
 <template>
   <div class="ms-wrapper">
-    <div class="row g-0">
+    <div class="row g-0" :class="{ 'flex-row-reverse': jumboContent.reverse }">
       <div class="col col-5 ms-text-col">
         <span class="ms-line"></span>
         <div class="ms-text-wrapper">
@@ -16,7 +16,7 @@
       </div>
       <div class="col col-7 ms-img-col">
         <div class="ms-img-container">
-          <img src="../assets/img/slider52x.jpg" alt="" />
+          <img :src="require(`../assets/img/${jumboContent.img}`)" alt="" />
         </div>
       </div>
     </div>
