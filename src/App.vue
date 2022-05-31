@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <AppHeader :menuItems="headerMenu" class="position-absolute top-0" />
+    <AppHeader :menuItems="headerMenu" />
     <div class="ms-labels-wrapper">
       <div
         class="demos d-flex ms-label flex-column mb-2 text-center justify-content-center"
@@ -114,14 +114,14 @@ export default {
     padding: 0.5rem;
     border-radius: 10px;
     font-size: 0.7rem;
-    color: #434243;
+    color: $ms-tundora;
 
     .main-label {
       font-size: 1.2rem;
     }
 
     .price {
-      color: #69a10e;
+      color: $ms-christi;
       font-weight: bold;
     }
   }

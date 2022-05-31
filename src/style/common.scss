@@ -1,12 +1,7 @@
 @import "~bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
+@import "./variables.scss";
 
-// Variables
-$ms-christi: #69a10e;
-$ms-tundora: #434243;
-$ms-silver: #bcbcbc;
-$ms-black: #030303;
-$ms-white: #ffffff;
 
 // Reset
 * {
@@ -36,6 +31,13 @@ p {
     font-weight: bold;
     font-size: 3rem;
     text-transform: uppercase;
+}
+
+.line {
+    border-bottom: 1px solid $ms-silver;
+    display: inline-block;
+    width: 50px;
+    margin: 1rem 0;
 }
 
  .ms-btn {

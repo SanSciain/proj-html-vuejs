@@ -9,7 +9,7 @@
           <p class="py-4">
             {{ jumboContent.text }}
           </p>
-          <a class="btn ms-btn" href="" role="button">{{
+          <a class="btn ms-btn mb-5" href="" role="button">{{
             jumboContent.btnText
           }}</a>
         </div>
@@ -62,6 +62,16 @@ export default {
         color: white;
       }
     }
+  }
+  .ms-img-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 }
 </style>

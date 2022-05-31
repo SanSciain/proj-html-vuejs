@@ -42,6 +42,9 @@ export default {
   margin: 0 auto;
   background-color: transparent;
   z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 5%;
 }
 .ms-img-container {
   width: 300px;

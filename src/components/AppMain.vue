@@ -4,6 +4,7 @@
     <FirstSection />
     <SmallCards />
     <AppJumbo :jumboContent="jumbos[1]" />
+    <CriticSection />
     <AppJumbo :jumboContent="jumbos[2]" />
   </div>
 </template>
@@ -12,12 +13,14 @@
 import AppJumbo from "./AppJumbo.vue";
 import FirstSection from "./FirstSection.vue";
 import SmallCards from "./SmallCards.vue";
+import CriticSection from "./CriticSection.vue";
 export default {
   name: "AppMain",
   components: {
     AppJumbo,
     FirstSection,
     SmallCards,
+    CriticSection,
   },
   data() {
     return {
