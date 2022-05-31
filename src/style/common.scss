@@ -25,6 +25,17 @@ p {
     text-transform: capitalize;
 }
 
+.ms-container-small {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ms-title {   
+    font-weight: bolder;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
 img {
     width: 100%;
 }

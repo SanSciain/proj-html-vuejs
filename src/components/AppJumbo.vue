@@ -5,7 +5,7 @@
         <span class="ms-line"></span>
         <div class="ms-text-wrapper">
           <span class="ms-upper-title">the best table in town</span>
-          <h2 class="py-4">fine dining experience</h2>
+          <h2 class="ms-title py-4">fine dining experience</h2>
           <p class="py-4">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
             beatae. Lorem ipsum dolor sit amet.
@@ -75,10 +75,8 @@ export default {
         font-size: 0.7rem;
       }
 
-      h2 {
+      .ms-title {
         color: white;
-        font-weight: bolder;
-        font-size: 3rem;
       }
 
       .ms-btn {
