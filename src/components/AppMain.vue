@@ -8,6 +8,7 @@
     <MidBanner />
     <NewsSection />
     <AppJumbo :jumboContent="jumbos[2]" />
+    <MenuSection />
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import SmallCards from "./SmallCards.vue";
 import CriticSection from "./CriticSection.vue";
 import MidBanner from "./MidBanner.vue";
 import NewsSection from "./NewsSection.vue";
+import MenuSection from "./MenuSection.vue";
 export default {
   name: "AppMain",
   components: {
@@ -34,6 +36,7 @@ export default {
     CriticSection,
     MidBanner,
     NewsSection,
+    MenuSection,
   },
   data() {
     return {
