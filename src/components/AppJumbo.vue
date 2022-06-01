@@ -9,7 +9,17 @@
           <p class="py-4">
             {{ jumboContent.text }}
           </p>
-          <a class="btn ms-btn mb-5" href="" role="button">{{
+          <a
+            class="btn ms-btn mb-5"
+            href=""
+            role="button"
+            v-if="Array.isArray(jumboContent.btnText)"
+            ><font-awesome-icon
+              :icon="jumboContent.btnText[1]"
+              class="px-2"
+            />{{ jumboContent.btnText[0] }}</a
+          >
+          <a class="btn ms-btn mb-5" href="" role="button" v-else>{{
             jumboContent.btnText
           }}</a>
         </div>
