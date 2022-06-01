@@ -15,7 +15,7 @@ export default {
   name: "MenuItem",
   props: {
     menuItem: Object,
-    reverse: String,
+    reverse: Boolean,
   },
 };
 </script>
