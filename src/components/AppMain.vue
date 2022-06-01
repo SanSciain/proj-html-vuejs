@@ -5,6 +5,7 @@
     <SmallCards />
     <AppJumbo :jumboContent="jumbos[1]" />
     <CriticSection />
+    <MidBanner />
     <AppJumbo :jumboContent="jumbos[2]" />
   </div>
 </template>
@@ -14,6 +15,7 @@ import AppJumbo from "./AppJumbo.vue";
 import FirstSection from "./FirstSection.vue";
 import SmallCards from "./SmallCards.vue";
 import CriticSection from "./CriticSection.vue";
+import MidBanner from "./MidBanner.vue";
 export default {
   name: "AppMain",
   components: {
@@ -21,6 +23,7 @@ export default {
     FirstSection,
     SmallCards,
     CriticSection,
+    MidBanner,
   },
   data() {
     return {
