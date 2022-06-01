@@ -7,7 +7,7 @@
     />
     <div class="card-body">
       <h5 class="card-title ms-title">{{ cardContent.title }}</h5>
-      <span class="card-text">{{ cardContent.credits }}</span>
+      <p class="card-text">{{ cardContent.credits }}</p>
     </div>
   </div>
 </template>

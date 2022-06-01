@@ -30,9 +30,10 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 library.add(faCartShopping);
-Vue.component("font-awesome-icon", FontAwesomeIcon);
 import { faFolder } from "@fortawesome/free-solid-svg-icons";
 library.add(faFolder);
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+library.add(faChevronUp);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 export default {
