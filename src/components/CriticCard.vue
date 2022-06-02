@@ -20,6 +20,7 @@
       <p class="my-3">{{ cardContent.text }}</p>
       <a class="btn ms-btn" href="" role="button">{{ cardContent.btnText }}</a>
     </div>
+    <div class="overlay"></div>
   </div>
 </template>
 
@@ -39,6 +40,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../style/overlay.scss";
 .card {
   padding: 6rem;
   border-radius: 0;
@@ -46,6 +48,8 @@ export default {
   border: none;
   background-position: center;
   background-size: cover;
+  position: relative;
+  z-index: -2;
 
   .author {
     font-size: 0.7rem;

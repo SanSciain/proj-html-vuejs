@@ -16,7 +16,7 @@
       </div>
     </div>
     <AppMain />
-    <AppFooter />
+    <AppFooter :icons="footerIcons" />
   </div>
 </template>
 
@@ -32,8 +32,6 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 library.add(faCartShopping);
 import { faFolder } from "@fortawesome/free-solid-svg-icons";
 library.add(faFolder);
-import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
-library.add(faChevronUp);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 export default {
@@ -95,6 +93,7 @@ export default {
           new: false,
         },
       ],
+      footerIcons: ["facebook", "twitter", "youtube", "instagram", "linkedin"],
     };
   },
 };

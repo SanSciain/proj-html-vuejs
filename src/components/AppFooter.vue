@@ -15,6 +15,7 @@
             :key="index"
             :icon="`fa-brands ${item}`"
           />
+          <!-- <i :class="`bi bi-${icons.item}`"></i> -->
         </div>
       </div>
     </div>
